@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+
+        android:id="@+id/noEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/noestudiantes"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/calcular"
+        android:onClick="calcular"
+       />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:text="0"
+       />
+
+    </LinearLayout>

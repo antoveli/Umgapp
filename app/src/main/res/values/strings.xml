@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Umgapp</string>
+    <string name="noestudiantes">noEstudiantes</string>
+    <string name="calcular">calcular</string>
+</resources>
